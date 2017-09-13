@@ -1,0 +1,268 @@
+@CHARSET "ISO-8859-1";
+html { 
+	height: 100% 
+}
+::-moz-selection { 
+	background: #fe57a1; 
+	color: #fff; 
+	text-shadow: none; 
+}
+::selection { 
+	background: #fe57a1; 
+	color: #fff; 
+	text-shadow: none; 
+}
+body {
+    background-image: url("images/backgroundImage1.jpg");
+    background-repeat: no-repeat;
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+.reportDiv table{
+	width : 700px;
+}
+
+.myreadme{
+	margin: 10px auto;
+	width: 900px;
+	height: auto;
+	background-color: powderblue;
+	padding : 20px;
+	font-size: 16px;
+	font-weight: 300;
+	font-family: Arial;
+	color: black;
+	
+}
+td
+{
+	padding: 0 10px;
+	font-family: Arial;
+ 	font-size:17px;
+  	font-weight:bold;
+  	color: #214695;
+  	border-bottom: 0.5px;
+  	margin: 10px auto;
+  	width: 220px;
+}
+
+.reportDiv td{
+	border-bottom-style: groove;
+	padding: 15px;
+	text-align: center;
+}
+.tablediv{
+	
+	width :90%;
+}
+
+.customer {
+ 
+  	height: 250px;
+  	margin-left: 35%;
+  	margin-top: 18%;
+  	width: 200px;
+} 
+
+.login {
+  	background: powderblue;
+  	height: 300px;
+  	margin: 10px auto;
+  	margin-top: 60px;
+  	width: 420px;
+  	border-style: ridge;
+  	border-radius:0.2px;
+} 	
+.clientName {
+  	
+  	height: auto;
+  	margin: 10px auto;
+  	margin-top: 100px;
+  	width: 420px;
+  	
+} 	
+
+.logout
+{
+	float: right;	
+}
+.uploadExcel {
+	background: powderblue;
+	border-style: ridge;
+	border-radius:0.5px;
+	height: auto;
+	margin: 10px auto;
+  	margin-top: 2%;
+	width: 500px;
+}
+.mainDiv
+{
+	margin: 10px auto;
+  	margin-top: 90px;
+	display: flex;
+}
+.buttons
+{
+	margin: -10px 400px;
+	
+}
+.sidebar{
+	background: powderblue;
+	float:left;
+	width:20%;
+	height: auto;
+	margin:20px;
+	margin-left: 30%;
+	
+}
+.reportDiv
+{
+	background: powderblue;
+	float:left;
+	width:75%;
+	height: auto;
+	margin:5px;
+	border: ridge;
+	margin : -40px auto;
+}
+
+h2{
+	
+	background-image: linear-gradient(top, #f1f3f3, #d4dae0);
+  	color: #214695;
+  	display: block;
+  	height: 43px;
+  	font: 1000 14px/1 'Arial', Arial;
+  	padding-top: 20px;
+	
+}
+
+input[type="password"], input[type="text"],textarea ,select{
+	background: center left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
+	font-family: Arial;
+	
+	border-radius: 4px;
+	
+	box-sizing: border-box;
+	color: #696969;
+	height: 39px;
+	margin: 2%;
+	padding-left: 37px;
+	transition: box-shadow 0.3s;
+	width: 240px;
+}
+
+input[type="file"]
+{
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+input[type="password"]:focus, input[type="text"]:focus {
+	box-shadow: 0 0 4px 1px rgba(55, 166, 155, 0.3);
+	outline: 0;
+}
+.show-password {
+	display: block;
+	height: 16px;
+	margin: 26px 0 0 28px;
+	width: 87px;
+}
+
+input[type="submit"],input[type="button"]{
+	width:200px;
+	height:35px;
+	display:block;
+	font-family:Arial, "Arial", Arial;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
+	text-shadow:1px 1px 0px #37a69b;
+	padding-top:2px;
+	margin: 4% 30%;
+	position:relative;
+	cursor:pointer;
+	border: none;  
+	background-color: #37a69b;
+	background-image: linear-gradient(top,#3db0a6,#3111);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius:5px;
+	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #497a78, 0px 10px 5px #999;
+}
+
+
+#downloadBtn{
+	float: right;
+	
+}
+#backBtn{
+	float: left;
+	
+}
+
+h4
+{
+	color:#214695;
+	font-size:large;
+	font-family: Arial;
+}
+
+input[type="submit"]:active {
+  	top:3px;
+  	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #31524d, 0px 5px 3px #999;
+}
+
+li
+{
+  	padding: 10px;
+  	color: black;
+   	height: 10px;
+ 	
+}
+
+
+.address {
+	font-size : 16px; 
+	text-align : center; 
+	color: #214695;
+	padding: 1% 0;
+	font-size:medium;
+	font-weight: bold;
+	font-family: Arial;
+}
+p
+{
+	font-size: medium;
+	font-family: Arial;
+	background-color: powderblue;
+	color: #214695;
+}
+.newcustform
+{
+	padding: 10px 28%;
+	width: auto;
+	height: auto;
+	margin : 10px auto;
+	
+	
+}
+
+input[type="checkbox"]
+{
+	margin: 10px;
+	
+}
+h6
+{
+	font-size: large;
+	padding-left: 10px;
+	color: #214695;
+}

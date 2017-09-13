@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+#newcustform
+{
+	padding-left: 200px;
+	width: auto;
+	height: auto;
+	background-color: powderblue;
+	margin: 10px 120px;
+	
+}
+
+input[type="checkbox"]
+{
+	margin: 10px;
+	
+}
+h6
+{
+	font-size: large;
+}
+
+body {
+    background-image: url("images/backgroundImage.jpg");
+    background-repeat: no-repeat;
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
